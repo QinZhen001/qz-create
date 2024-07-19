@@ -5,7 +5,6 @@ name: NPM Publish
 
 on:
   workflow_dispatch:
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,8 +14,9 @@ jobs:
         with:
           node-version: 21
           cache: 'yarn'
-      - run: yarn
-      - run: yarn build
+        run: |
+          yarn --frozen-lockfile
+          yarn build
 
   publish-npm:
     needs: build
