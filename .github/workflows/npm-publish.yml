@@ -16,6 +16,7 @@ jobs:
           node-version: 22
           cache: 'yarn'
       - run: yarn --frozen-lockfile
+      - run: yarn global add typescript
       - run: yarn global add unbuild
       - run: yarn build
 
