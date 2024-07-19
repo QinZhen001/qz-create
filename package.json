@@ -25,10 +25,10 @@
     "node": "^18.0.0 || >=20.0.0"
   },
   "repository": {
-    "url": "https://github.com/AgoraIO-Community/create-agora-app"
+    "url": "https://github.com/QinZhen001/qz-create"
   },
   "bugs": {
-    "url": "https://github.com/AgoraIO-Community/create-agora-app/issues"
+    "url": "https://github.com/QinZhen001/qz-create/issues"
   },
   "dependencies": {
     "cross-spawn": "^7.0.3",
