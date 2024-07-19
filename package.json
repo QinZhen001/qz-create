@@ -19,7 +19,7 @@
     "dev": "unbuild --stub",
     "build": "unbuild",
     "typecheck": "tsc --noEmit",
-    "test":"echo test ok"
+    "test": "echo test ok"
   },
   "engines": {
     "node": "^18.0.0 || >=20.0.0"
@@ -31,9 +31,9 @@
     "url": "https://github.com/AgoraIO-Community/create-agora-app/issues"
   },
   "devDependencies": {
+    "@types/cross-spawn": "^6.0.3",
     "@types/minimist": "^1.2.5",
     "@types/prompts": "^2.4.9",
-    "@types/cross-spawn": "^6.0.3",
     "cross-spawn": "^7.0.3",
     "kolorist": "^1.8.0",
     "minimist": "^1.2.8",
